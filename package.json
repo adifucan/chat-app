@@ -1,0 +1,29 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Chat App",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adifucan/chat-app.git"
+  },
+  "keywords": [
+    "chat",
+    "app"
+  ],
+  "author": "Dmytro Poperechnyy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adifucan/chat-app/issues"
+  },
+  "homepage": "https://github.com/adifucan/chat-app#readme",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
