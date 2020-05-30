@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Chat App</title>
-<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
-<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
-<!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
     <script defer src="script.js"></script>
     <style>
@@ -46,24 +46,10 @@
     </style>
 </head>
 <body>
-<!--<div class="container">-->
-<!--    <div class="row">-->
-<!--        <div class="col">-->
-<!--            <div id="message-container"><div></div></div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <form id="send-container">-->
-<!--        <div class="form-group">-->
-<!--            <label for="message-input">Enter message:</label>-->
-<!--            <input type="text" class="form-control" id="message-input" placeholder="Enter message here">-->
-<!--        </div>-->
-<!--        <button type="submit" class="btn btn-primary" id="send-button">Send</button>-->
-<!--    </form>-->
-<!--</div>-->
 <div id="message-container"></div>
 <form id="send-container">
     <input type="text" id="message-input">
-    <button type="submit" id="send-button">Send</button>
+    <button type="submit" class="btn btn-primary" id="send-button">Send</button>
 </form>
 </body>
 </html>
