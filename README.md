@@ -8,4 +8,4 @@ This project is deployed to AWS EC2 instance with PM2 process manager for Node.j
 Here is a live demo: http://13.59.65.252:3000/
 
 Application Screenshot:
-![Chat App Demo](https://github.com/adifucan/chat-app/images/chat-app.png)
+![Chat App Demo](https://github.com/adifucan/chat-app/blob/master/images/chat-app.png)
